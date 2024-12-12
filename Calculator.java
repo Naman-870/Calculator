@@ -9,7 +9,7 @@ public class Calculator {
         System.out.println("Choose an operation: +, -, *, /");
         char operation = scanner.next().charAt(0);
 
-        System.out.println("Enter the first number:");
+        System.out.println("Enter the first number,only digits:");
         double num1 = scanner.nextDouble();
 
         System.out.println("Enter the second number:");
